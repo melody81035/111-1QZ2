@@ -11,7 +11,12 @@ namespace _111_1QZ2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            lb_Msg.Text = "Page_Load";
+        }
 
+        protected void btn_Submit_Click(object sender, EventArgs e)
+        {
+            lb_Msg.Text = "btn_Event";
         }
     }
 }
