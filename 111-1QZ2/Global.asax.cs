@@ -11,6 +11,14 @@ namespace _111_1QZ2
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            {
+                Ib_Msg.Test = "Page_Load"
+        }
+
+            protected void Application_Start(object sender, EventArgs e)
+            {
+                Ib_Msg.Test = "btn_Event"
+            }
         }
     }
 }
